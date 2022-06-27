@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as t}from"./app.c20c0d51.js";const g='{"title":"getBy, queryBy y findBy","description":"","frontmatter":{},"headers":[],"relativePath":"vtl/psyc/getby-queryby-findby.md"}',o={},e=t("",31),p=[e];function c(r,l,u,i,k,d){return a(),n("div",null,p)}var b=s(o,[["render",c]]);export{g as __pageData,b as default};
