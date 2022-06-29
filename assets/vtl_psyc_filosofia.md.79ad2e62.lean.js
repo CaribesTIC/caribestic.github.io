@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,a as e}from"./app.9b0c39a4.js";const g='{"title":"Filosof\xEDa","description":"","frontmatter":{},"headers":[],"relativePath":"vtl/psyc/filosofia.md"}',o={},t=e("",19),p=[t];function c(u,l,r,i,d,k){return a(),s("div",null,p)}var h=n(o,[["render",c]]);export{g as __pageData,h as default};
