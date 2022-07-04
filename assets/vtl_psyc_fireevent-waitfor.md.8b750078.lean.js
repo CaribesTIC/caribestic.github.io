@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,a as t}from"./app.6d5336e7.js";const m='{"title":"fireEvent y waitFor","description":"","frontmatter":{},"headers":[],"relativePath":"vtl/psyc/fireevent-waitfor.md"}',e={},p=t("",39),o=[p];function c(l,u,i,r,k,d){return a(),s("div",null,o)}var b=n(e,[["render",c]]);export{m as __pageData,b as default};
