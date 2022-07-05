@@ -57,10 +57,6 @@ import{_ as n,c as s,o as a,a as t}from"./app.6d5336e7.js";const b='{"title":"Tr
 Test Files  1 failed | 1 passed (2)
      Tests  1 failed | 6 passed (7)
       Time  1.98s (in thread 387ms, 512.59%)
-
-
- FAIL  Tests failed. Watching for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Ahora comprobaremos, con el m\xE9todo <code>toBeDisabled</code>, que el bot\xF3n est\xE1 deshabilitado. Este es otro m\xE9todo que proviene de <code>@testing-library/jest-dom</code>.</p><div class="language-js"><div class="highlight-lines"><br><br><div class="highlighted">\xA0</div><br><br><br><br><br><br><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><br><br></div><pre><code><span class="token comment">// tests/components/myform.spec.js</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> render<span class="token punctuation">,</span> screen <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@testing-library/vue&quot;</span>
 <span class="token keyword">import</span> <span class="token string">&quot;@testing-library/jest-dom&quot;</span>
@@ -140,10 +136,6 @@ Test Files  1 failed | 1 passed (2)
 Test Files  1 failed (1)
      Tests  1 failed (1)
       Time  124ms
-
-
- FAIL  Tests failed. Watching for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Esto es otro problema similar que vimos antes.</p><p>La soluci\xF3n de Vue Test Utils lo puede resolver con el m\xE9todo <code>nextTick</code> de Vue.</p><div class="language-js"><div class="highlight-lines"><br><br><div class="highlighted">\xA0</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted">\xA0</div><br><br><br><br></div><pre><code><span class="token comment">// tests/components/myform.spec.js</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> render<span class="token punctuation">,</span> screen<span class="token punctuation">,</span> fireEvent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@testing-library/vue&quot;</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> nextTick <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue&quot;</span>

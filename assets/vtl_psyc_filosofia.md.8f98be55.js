@@ -53,8 +53,4 @@ import{_ as n,c as s,o as a,a as e}from"./app.6d5336e7.js";const g='{"title":"Fi
 Test Files  1 passed (1)
      Tests  1 passed (1)
       Time  52ms
-
-
- PASS  Waiting for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>... podemos ver que definitivamente pasar\xE1.</p><p>Ahora que hemos hablado un poco sobre esta filosof\xEDa, pasemos a la siguiente lecci\xF3n y hablemos sobre las diferentes formas en que podemos seleccionar nodos y c\xF3mo se diferencian.</p>`,19),p=[t];function c(l,u,r,i,d,k){return a(),s("div",null,p)}var h=n(o,[["render",c]]);export{g as __pageData,h as default};

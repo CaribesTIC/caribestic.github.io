@@ -57,8 +57,4 @@ import{_ as n,c as s,o as a,a as t}from"./app.6d5336e7.js";const g='{"title":"Co
 Test Files  1 passed (1)
      Tests  1 passed (1)
       Time  1.82s (in thread 49ms, 3721.69%)
-
-
- PASS  Waiting for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>... y efectivamente pas\xF3.</p>`,19),p=[e];function c(l,u,r,i,k,d){return a(),s("div",null,p)}var h=n(o,[["render",c]]);export{g as __pageData,h as default};

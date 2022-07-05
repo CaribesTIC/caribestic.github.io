@@ -28,10 +28,6 @@ import{_ as n,c as s,o as a,a as t}from"./app.6d5336e7.js";const m='{"title":"fi
 Test Files  1 passed (1)
      Tests  1 passed (1)
       Time  39ms
-
-
- PASS  Waiting for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>As\xED que sigamos adelante creando la variable reactiva <code>show</code> establecida en <code>false</code> y condicionando el respectivo elemento para que muestre el mensaje correspondiente.</p><div class="language-vue"><div class="highlight-lines"><br><br><br><br><br><br><br><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><br><br><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><br><br></div><pre><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
 <span class="token keyword">import</span> <span class="token punctuation">{</span> ref <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vue&#39;</span>
 
@@ -78,10 +74,6 @@ Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
 Test Files  1 failed (1)
      Tests  1 failed (1)
       Time  44ms
-
-
- FAIL  Tests failed. Watching for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Revisemos nuestra prueba para determinar porque est\xE1 fallando.</p><div class="language-js"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><br><br></div><pre><code><span class="token comment">// tests/components/helloworld.spec.js</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> render<span class="token punctuation">,</span> screen <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@testing-library/vue&quot;</span>
 <span class="token keyword">import</span> <span class="token string">&quot;@testing-library/jest-dom&quot;</span>

@@ -19,10 +19,6 @@ import{_ as s,c as n,o as a,a as t}from"./app.6d5336e7.js";const m='{"title":"ge
 Test Files  1 passed (1)
      Tests  1 passed (1)
       Time  50ms
-
-
- PASS  Waiting for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Veamos qu\xE9 sucede si lo cambiamos y lo guardamos.</p><div class="language-js"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted">\xA0</div><div class="highlighted">\xA0</div><br><br></div><pre><code><span class="token comment">// tests/components/helloworld.spec.js</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> render<span class="token punctuation">,</span> screen <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@testing-library/vue&quot;</span>
 <span class="token keyword">import</span> <span class="token string">&quot;@testing-library/jest-dom&quot;</span>
@@ -52,10 +48,6 @@ Test Files  1 passed (1)
 Test Files  1 failed (1)
      Tests  1 failed (1)
       Time  58ms
-
-
- FAIL  Tests failed. Watching for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Y esta es una de las caracter\xEDsticas de <code>getByText</code>. Va a fallar si no encuentra el <em>nodo</em> correcto e incluso, le mostrar\xE1 una visualizaci\xF3n del DOM y le mostrar\xE1 lo que existe y lo que no.</p><div class="language-js"><pre><code> <span class="token constant">FAIL</span>  tests<span class="token operator">/</span>components<span class="token operator">/</span>helloworld<span class="token punctuation">.</span>spec<span class="token punctuation">.</span>js <span class="token operator">&gt;</span> HelloWorld<span class="token punctuation">.</span>vue <span class="token operator">&gt;</span> renders props<span class="token punctuation">.</span>msg when passed
 <span class="token literal-property property">TestingLibraryElementError</span><span class="token operator">:</span> Unable to find an element <span class="token keyword">with</span> the text<span class="token operator">:</span> asdf<span class="token punctuation">.</span> This could be because the text is broken up by multiple elements<span class="token punctuation">.</span> In <span class="token keyword">this</span> <span class="token keyword">case</span><span class="token punctuation">,</span> you can provide a <span class="token keyword">function</span> <span class="token keyword">for</span> your text matcher to make your matcher more flexible<span class="token punctuation">.</span>
 
@@ -185,10 +177,6 @@ Ignored nodes<span class="token operator">:</span> comments<span class="token pu
 Test Files  1 passed (1)
      Tests  1 passed (1)
       Time  29ms
-
-
- PASS  Waiting for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Por lo que la principal diferencia entre <code>queryByText</code> y <code>getByText</code> es que <code>getByText</code> va a fallar si no encuentra el elemento correcto mientras que <code>queryByText</code> no. Podemos confirmar eso, una vez m\xE1s, con solo mirar los tipos de devoluci\xF3n de <code>getByText</code>, que solo puede ser un <code>HTMLElement</code>, mientras que <code>queryByText</code> puede ser <code>HTMLElement | null</code>.</p><p>Por lo que generalmente usaremos el m\xE9todo <code>getByText</code>, la \xFAnica raz\xF3n por la que realmente deseamos usar <code>queryByText</code> es si estamos afirmando que algo no existe. De lo contrario, seguiremos con el <code>getByText</code>. Por la raz\xF3n de que es m\xE1s claro y en realidad nos dar\xE1 un buen resultado si nuestra prueba sigue adelante.</p><p>Hay uno m\xE1s del cual vamos a hablar, que es <code>findByText</code> y este es realmente as\xEDncrono, una de las caracter\xEDstica realmente agradables de Vue Testing Library. Y esto resuelve uno de los problemas de Vue Test Utils, donde normalmente tendr\xEDamos que usar <code>nextTick</code>.</p><div class="language-js"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted">\xA0</div><br><br></div><pre><code><span class="token comment">// tests/components/helloworld.spec.js</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> render<span class="token punctuation">,</span> screen <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@testing-library/vue&quot;</span>
 <span class="token keyword">import</span> <span class="token string">&quot;@testing-library/jest-dom&quot;</span>

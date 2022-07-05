@@ -78,8 +78,4 @@ HI
 Test Files  1 passed (1)
      Tests  1 passed (1)
       Time  102ms
-
-
- PASS  Waiting for file changes...
-       press h to show help, press q to quit
 </code></pre></div><p>Vamos a obtener dos veces <code>HI</code>.</p><p>Lo que est\xE1 pasando aqu\xED es que estamos llamando <code>waitFor</code> y esta est\xE1 ejecutando la funci\xF3n de devoluci\xF3n de llamada la primera vez fallando, as\xED que espera 50 milisegundos e intenta repetir la funci\xF3n de devoluci\xF3n de llamada nuevamente hasta que pasa. Es por eso que nos devuelve <code>HI</code> dos veces.</p><p>Algo muy similar est\xE1 sucediendo internamente con <code>findBy</code>. Sin embargo, al usar <code>findBy</code> estamos abstrayendo esa complejidad desde el punto de vista del usuario y del lector. Por lo que definitivamente es preferible usar <code>findBy</code> en lugar de usar <code>waitFor</code>.</p><p>Probablemente haya algunos casos de uso para <code>waitFor</code>, pero en general querr\xE1 usar un <code>findBy</code> siempre que se pueda.</p>`,19),p=[o];function c(u,l,r,i,k,d){return a(),s("div",null,p)}var b=n(e,[["render",c]]);export{g as __pageData,b as default};
