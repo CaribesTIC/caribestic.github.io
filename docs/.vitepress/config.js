@@ -8,7 +8,7 @@ export default {
       {
         text: 'Tutoriales',
         items: [
-          { text: 'Laravuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' },
+          { text: 'LaraVuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' },
           { text: 'Vue-TDD', link: 'https://caribestic.github.io/vue-tdd/' }          
         ]
       },
