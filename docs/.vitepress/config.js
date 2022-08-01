@@ -6,7 +6,7 @@ export default {
     siteTitle: 'CaribesTIC',
     nav: [
       {
-        text: 'Tutoriales',
+        text: 'Scaffolding & Tutorials',
         items: [
           { text: 'LaraVuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' },
           { text: 'Vue-TDD', link: 'https://caribestic.github.io/vue-tdd/' }          
