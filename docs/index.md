@@ -4,7 +4,7 @@ layout: home
 hero:
   name: CaribesTIC
   text: Desarrolo Web
-  tagline: Tutoriales
+  tagline: Tutorials & Scaffolding
   image:
     src: /logo.png
     alt: CaribesTIC
