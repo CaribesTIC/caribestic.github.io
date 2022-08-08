@@ -13,6 +13,9 @@ hero:
       text: LaraVuel-ApiSpa
       link: https://caribestic.github.io/laravuel-apispa/
     - theme: brand
+      text: Vue-Forms
+      link: https://caribestic.github.io/vue-forms/
+    - theme: brand
       text: Vue-TDD
       link: https://caribestic.github.io/vue-tdd/
     - theme: alt
@@ -22,6 +25,8 @@ hero:
 features:
   - title: LaraVuel-ApiSpa
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
+  - title: Vue-Forms
+    details: Los formularios se benefician al encapsular la lógica de los elementos en componentes. A medida que nuestra aplicación crece, por lo general nuestros formularios también, y tener un formulario construido sin componentes generalmente se convierte en una bomba de relogería.
   - title: Vue-TDD
     details: Aprende TDD para Vue3 de cero a experto, paso a paso. Aquí, explica la correspondiente configuración de Vitest (con Vite) para tus proyectos y la migración a Vitest en cuanto a los Mocks (simulaciones).
     
