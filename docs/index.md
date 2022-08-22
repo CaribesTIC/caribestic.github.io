@@ -10,6 +10,9 @@ hero:
     alt: CaribesTIC
   actions:
     - theme: brand
+      text: eXtreme Programming
+      link: https://caribestic.github.io/xp/
+    - theme: brand
       text: LaraVuel-ApiSpa
       link: https://caribestic.github.io/laravuel-apispa/
     - theme: brand
@@ -26,6 +29,8 @@ hero:
       link: https://github.com/CaribesTIC/caribestic.github.io/
 
 features:
+  - title: eXtreme Programming
+    details: El motor de XP se basa en 5 valores principales, los cuales aplicados de manera simultánea, impulsan la esencia colaborativa del equipo. También tiene un compendio de 12 Prácticas, que podrían ser nombradas como los 12 Hábitos.
   - title: LaraVuel-ApiSpa
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
   - title: Refactorizar ya?
