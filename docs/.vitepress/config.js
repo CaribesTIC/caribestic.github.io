@@ -2,7 +2,8 @@ export default {
   title: 'CaribesTIC',
   description: 'Desarrolo Web',
   base: '/',
-  themeConfig: {    
+  themeConfig: {
+    logo: '/logo.png',  
     siteTitle: 'CaribesTIC',
     nav: [{
         text: 'Methodologies',
@@ -17,7 +18,8 @@ export default {
         ]
       }, {
         text: 'Tutorials',
-        items: [          
+        items: [
+          { text: 'Vue-Docker', link: 'https://caribestic.github.io/vue-docker/' },        
           { text: 'Vue-Forms', link: 'https://caribestic.github.io/vue-forms/' },
           { text: 'Vue-TDD', link: 'https://caribestic.github.io/vue-tdd/' }          
         ]
