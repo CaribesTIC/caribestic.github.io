@@ -9,7 +9,8 @@ export default {
         text: 'Methodologies',
         items: [
           { text: 'eXtreme Programming', link: 'https://caribestic.github.io/xp/' },
-          { text: 'Refactorizar ya?', link: 'https://caribestic.github.io/refactor-now/' }     
+          { text: 'Refactorizar ya?', link: 'https://caribestic.github.io/refactor-now/' },
+          { text: 'Scrum', link: 'https://caribestic.github.io/scrum/' }
         ]
       },{
         text: 'Scaffolding',

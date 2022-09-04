@@ -19,6 +19,9 @@ hero:
       text: Refactorizar ya?
       link: https://caribestic.github.io/refactor-now/
     - theme: brand
+      text: Scrum
+      link: https://caribestic.github.io/scrum/
+    - theme: brand
       text: Vue-Docker
       link: https://caribestic.github.io/vue-docker/   
     - theme: brand
@@ -38,6 +41,8 @@ features:
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
   - title: Refactorizar ya?
     details: La refactorización es una técnica que consiste en mejorar el código fuente de una aplicación, sin que dichas modificaciones, afecten el comportamiento externo del sistema. Strike One, Strike Two & Strike Out!
+  - title: Scrum
+    details: El aprendizaje de Scrum es el primer paso aconsejable para familiarizarse con la Gestión Ágil. Inicialmente se recomienda adoptarlo aplicando reglas definidas adoptando los Pilares, los Roles, los Artefactos y los Eventos originales.
   - title: Vue-Docker
     details: Reduce, si no elimina, la diferencia entre el entorno de producción, desarrollo o pruebas. Entorno robusto bajo Node+Ngnix. Entorno ligero bajo Node. Pruebas durante el desarrollo.
   - title: Vue-Forms
