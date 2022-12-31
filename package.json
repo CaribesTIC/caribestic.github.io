@@ -1,11 +1,16 @@
 {
+  "name": "caribes-tic",
+  "version": "1.0.0",
+  "description": "CaribesTic", 
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
-  "dependencies": {
-    "vitepress": "^1.0.0-alpha.12",
-    "vue": "^3.2.37"
+  "author": "Ernesto Canquiz",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.33",
+    "vue": "^3.2.45"
   }
 }
