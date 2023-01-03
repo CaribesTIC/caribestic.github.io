@@ -4,7 +4,7 @@ layout: home
 hero:
   name: CaribesTIC
   text: Desarrollo Web
-  tagline: Scaffolding & Tutorials
+  tagline: Books, Scaffolding & Tutorials
   image:
     src: /logo.png
     alt: CaribesTIC
@@ -13,8 +13,14 @@ hero:
       text: eXtreme Programming
       link: https://caribestic.github.io/xp/
     - theme: brand
+      text: Kanban en Acción
+      link: https://madexblog.wordpress.com/2020/06/19/kanban-en-accion/
+    - theme: brand
       text: LaraVuel-ApiSpa
       link: https://caribestic.github.io/laravuel-apispa/
+    - theme: brand
+      text: Metodología Ágil de Desarrollo eXtremo
+      link: https://madexblog.wordpress.com/2016/06/21/13/
     - theme: brand
       text: Refactorizar ya?
       link: https://caribestic.github.io/refactor-now/
@@ -37,8 +43,12 @@ hero:
 features:
   - title: eXtreme Programming
     details: El motor de XP se basa en 5 valores principales, los cuales aplicados de manera simultánea, impulsan la esencia colaborativa del equipo. También tiene un compendio de 12 Prácticas, que podrían ser nombradas como los 12 Hábitos.
+  - title: Kanban en Acción
+    details: ¿Demasiado trabajo y muy poco tiempo? Si esta es la vida diaria de su equipo, necesita kanban, un método de gestión de conocimiento eficiente diseñado para involucrar a todos los miembros del equipo en la mejora continua de su proceso.
   - title: LaraVuel-ApiSpa
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
+  - title: Metodología Ágil de Desarrollo eXtremo
+    details: El conocimiento evoluciona continuamente porque está en permanente movimiento y porque la mejora siempre es posible. Representa la base fundamental para organizar cualquier tipo de proyecto (inclusive un proyecto de vida), porque otorga visión y poder para la acción en un momento histórico y situacional.
   - title: Refactorizar ya?
     details: La refactorización es una técnica que consiste en mejorar el código fuente de una aplicación, sin que dichas modificaciones, afecten el comportamiento externo del sistema. Strike One, Strike Two & Strike Out!
   - title: Scrum
