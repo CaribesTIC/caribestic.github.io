@@ -49,7 +49,7 @@ features:
   - title: Kanban en Acción
     details: ¿Demasiado trabajo y muy poco tiempo? Si esta es la vida diaria de su equipo, necesita kanban, un método de gestión de conocimiento eficiente diseñado para involucrar a todos los miembros del equipo en la mejora continua de su proceso.
   - title: Laravel-Docker
-    details: Dockerize una aplicación PHP (con nginx y PostgreSQL). O cuando quiero comenzar un proyecto PHP, solo quiero comenzar rápidamente, aún no estoy seguro de qué herramientas necesitaré. Entonces, para mantenerlo "ajustado", solo instalaré las cosas que necesito y seguiré paso a paso después de eso.
+    details: Dockerize una aplicación PHP (con nginx y PostgreSQL). Comenzar un proyecto PHP rápidamente. Para mantenerlo "ajustado", solo instala las cosas que necesitas y sigue paso a paso adelante.
   - title: LaraVuel-ApiSpa
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
   - title: Metodología Ágil de Desarrollo eXtremo
