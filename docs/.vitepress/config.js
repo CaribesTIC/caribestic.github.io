@@ -12,8 +12,9 @@ export default {
           { text: 'Kanban en Acción', link: 'https://madexblog.wordpress.com/2020/06/19/kanban-en-accion/' },
           { text: 'Metodología Ágil de Desarrollo eXtremo', link: 'https://madexblog.wordpress.com/2016/06/21/13/' }          
         ]
-      },
-      {
+      }, {
+        text: 'Caciques', link: 'https://caribestic.github.io/caciques/'
+      }, {
         text: 'Methodologies',
         items: [
           { text: 'eXtreme Programming', link: 'https://caribestic.github.io/xp/' },
