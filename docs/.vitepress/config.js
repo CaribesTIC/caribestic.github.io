@@ -24,7 +24,8 @@ export default {
       },{
         text: 'Scaffolding',
         items: [
-          { text: 'LaraVuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' }        
+          { text: 'LaraVuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' },
+          { text: 'ShopCart-Nuxt', link: 'https://caribestic.github.io/shopcart/' }      
         ]
       }, {
         text: 'Tutorials',

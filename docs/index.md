@@ -34,6 +34,9 @@ hero:
       text: Scrum
       link: https://caribestic.github.io/scrum/
     - theme: brand
+      text: ShopCart
+      link: https://caribestic.github.io/shopcart/
+    - theme: brand
       text: Vue-Docker
       link: https://caribestic.github.io/vue-docker/   
     - theme: brand
@@ -61,6 +64,8 @@ features:
     details: La refactorización es una técnica que consiste en mejorar el código fuente de una aplicación, sin que dichas modificaciones, afecten el comportamiento externo del sistema. Strike One, Strike Two & Strike Out!
   - title: Scrum
     details: El aprendizaje de Scrum es el primer paso aconsejable para familiarizarse con la Gestión Ágil. Inicialmente se recomienda adoptarlo aplicando reglas definidas adoptando los Pilares, los Roles, los Artefactos y los Eventos originales.
+  - title: ShopCart
+    details: Nuxt, Pinia, TailwindCss & TypeScript.    
   - title: Vue-Docker
     details: Reduce, si no elimina, la diferencia entre el entorno de producción, desarrollo o pruebas. Entorno robusto bajo Node+Ngnix. Entorno ligero bajo Node. Pruebas durante el desarrollo.
   - title: Vue-Forms
