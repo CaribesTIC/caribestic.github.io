@@ -10,6 +10,9 @@ hero:
     alt: CaribesTIC
   actions:
     - theme: brand
+      text: Caciques
+      link: https://caribestic.github.io/caciques/
+    - theme: brand
       text: eXtreme Programming
       link: https://caribestic.github.io/xp/
     - theme: brand

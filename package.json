@@ -5,12 +5,12 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:preview": "vitepress preview docs"
   },
   "author": "Ernesto Canquiz",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.33",
-    "vue": "^3.2.45"
+    "vitepress": "^1.0.0-alpha.63",
+    "vue": "^3.2.47"
   }
 }
