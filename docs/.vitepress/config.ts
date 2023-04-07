@@ -1,19 +1,21 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
   title: 'CaribesTIC',
   description: 'Desarrolo Web',
   base: '/',
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',  
     siteTitle: 'CaribesTIC',
-    nav: [
+nav: [
       {
         text: 'Books',
         items: [
           { text: 'Kanban en Acción', link: 'https://madexblog.wordpress.com/2020/06/19/kanban-en-accion/' },
           { text: 'Metodología Ágil de Desarrollo eXtremo', link: 'https://madexblog.wordpress.com/2016/06/21/13/' }          
         ]
-      }, {
-        text: 'Caciques', link: 'https://caribestic.github.io/caciques/'
       }, {
         text: 'Methodologies',
         items: [
@@ -24,7 +26,8 @@ export default {
       },{
         text: 'Scaffolding',
         items: [
-          { text: 'LaraVuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' }        
+          { text: 'LaraVuel-ApiSpa', link: 'https://caribestic.github.io/laravuel-apispa/' },
+          { text: 'ShopCart-Nuxt', link: 'https://caribestic.github.io/shopcart/' }      
         ]
       }, {
         text: 'Tutorials',
@@ -35,9 +38,11 @@ export default {
           { text: 'Vue-TDD', link: 'https://caribestic.github.io/vue-tdd/' }          
         ]
       }, {
-        text: 'GitHub', link: 'https://github.com/CaribesTIC/caribestic.github.io/'
-      }
+        text: 'Caciques', link: 'https://caribestic.github.io/caciques/'
+      },
+    ],    
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/CaribesTIC/caribestic.github.io/' }
     ]
   }
-}
-
+})
