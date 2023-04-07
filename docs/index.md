@@ -1,17 +1,15 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: CaribesTIC
-  text: Desarrollo Web
-  tagline: Books, Scaffolding & Tutorials
+  name: "CaribesTIC"
+  text: "Desarrollo Web"
+  tagline: "Books, Scaffolding & Tutorials"
   image:
     src: /logo.png
     alt: CaribesTIC
   actions:
-    - theme: brand
-      text: Caciques
-      link: https://caribestic.github.io/caciques/
     - theme: brand
       text: eXtreme Programming
       link: https://caribestic.github.io/xp/
@@ -46,8 +44,8 @@ hero:
       text: Vue-TDD
       link: https://caribestic.github.io/vue-tdd/
     - theme: alt
-      text: GitHub
-      link: https://github.com/CaribesTIC/caribestic.github.io/
+      text: Caciques
+      link: https://caribestic.github.io/caciques/
 
 features:
   - title: eXtreme Programming
@@ -74,5 +72,3 @@ features:
     details: Aprende TDD para Vue3 de cero a experto, paso a paso. Aquí, explica la correspondiente configuración de Vitest (con Vite) para tus proyectos y la migración a Vitest en cuanto a los Mocks (simulaciones).
     
 footer: MIT Licensed | Copyleft © 2022-present Ernesto Canquiz
----
-
