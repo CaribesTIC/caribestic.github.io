@@ -28,6 +28,9 @@ hero:
       text: Metodología Ágil de Desarrollo eXtremo
       link: https://madexblog.wordpress.com/2016/06/21/13/
     - theme: brand
+      text: Patrones Probados de Pinia
+      link: https://caribestic.github.io/proven-pinia-patterns/
+    - theme: brand
       text: Refactorizar ya?
       link: https://caribestic.github.io/refactor-now/
     - theme: brand
@@ -60,6 +63,8 @@ features:
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
   - title: Metodología Ágil de Desarrollo eXtremo
     details: El conocimiento evoluciona continuamente porque está en permanente movimiento y porque la mejora siempre es posible. Representa la base fundamental para organizar cualquier tipo de proyecto (inclusive un proyecto de vida), porque otorga visión y poder para la acción en un momento histórico y situacional.
+- title: Patrones Probados de Pinia
+    details: Exploraremos los patrones de nivel profesional que querrá saber cuando utilice la biblioteca de administración de estado de Vue en producción. Veremos las mejores prácticas para usar Pinia en sus aplicaciones y las aplicaremos a escenarios comunes.
   - title: Refactorizar ya?
     details: La refactorización es una técnica que consiste en mejorar el código fuente de una aplicación, sin que dichas modificaciones, afecten el comportamiento externo del sistema. Strike One, Strike Two & Strike Out!
   - title: Scrum
