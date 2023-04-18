@@ -1,15 +1,17 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "CaribesTIC"
-  text: "Desarrollo Web"
-  tagline: "Books, Scaffolding & Tutorials"
+  name: CaribesTIC
+  text: Desarrollo Web
+  tagline: Books, Scaffolding & Tutorials
   image:
     src: /logo.png
     alt: CaribesTIC
   actions:
+    - theme: brand
+      text: Caciques
+      link: https://caribestic.github.io/caciques/
     - theme: brand
       text: eXtreme Programming
       link: https://caribestic.github.io/xp/
@@ -47,8 +49,8 @@ hero:
       text: Vue-TDD
       link: https://caribestic.github.io/vue-tdd/
     - theme: alt
-      text: Caciques
-      link: https://caribestic.github.io/caciques/
+      text: GitHub
+      link: https://github.com/CaribesTIC/caribestic.github.io/
 
 features:
   - title: eXtreme Programming
@@ -61,7 +63,7 @@ features:
     details: Si desea seguir la ruta de tener un SPA completamente separado que consume una API de Laravel, estos documentos deberían proporcionar toda la referencia que necesitas para configurar las cosas y empezar con un andamiaje para tu proyecto.
   - title: Metodología Ágil de Desarrollo eXtremo
     details: El conocimiento evoluciona continuamente porque está en permanente movimiento y porque la mejora siempre es posible. Representa la base fundamental para organizar cualquier tipo de proyecto (inclusive un proyecto de vida), porque otorga visión y poder para la acción en un momento histórico y situacional.
-- title: Patrones Probados de Pinia
+  - title: Patrones Probados de Pinia
     details: Exploraremos los patrones de nivel profesional que querrá saber cuando utilice la biblioteca de administración de estado de Vue en producción. Veremos las mejores prácticas para usar Pinia en sus aplicaciones y las aplicaremos a escenarios comunes.
   - title: Refactorizar ya?
     details: La refactorización es una técnica que consiste en mejorar el código fuente de una aplicación, sin que dichas modificaciones, afecten el comportamiento externo del sistema. Strike One, Strike Two & Strike Out!
@@ -77,3 +79,5 @@ features:
     details: Aprende TDD para Vue3 de cero a experto, paso a paso. Aquí, explica la correspondiente configuración de Vitest (con Vite) para tus proyectos y la migración a Vitest en cuanto a los Mocks (simulaciones).
     
 footer: MIT Licensed | Copyleft © 2022-present Ernesto Canquiz
+---
+
