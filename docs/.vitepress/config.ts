@@ -33,6 +33,7 @@ nav: [
         text: 'Tutorials',
         items: [
           { text: 'Laravel-Docker', link: 'https://caribestic.github.io/laravel-docker/' },
+          { text: 'Patrones Probados de Pinia', link: 'https://caribestic.github.io/proven-pinia-patterns/' },
           { text: 'Vue-Docker', link: 'https://caribestic.github.io/vue-docker/' },        
           { text: 'Vue-Forms', link: 'https://caribestic.github.io/vue-forms/' },
           { text: 'Vue-TDD', link: 'https://caribestic.github.io/vue-tdd/' }          
